@@ -4,10 +4,9 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "687f77d65eac2008a4791e9f98b21bf6",
-"index.html": "c45eaaf8139d8bc08d206a70b7d9a28f",
-"/": "c45eaaf8139d8bc08d206a70b7d9a28f",
-"main.dart.js": "6c6ac0ffd9002dac2d051812c8b45e0e",
-"flutter.js": "1cfe996e845b3a8a33f57607e8b09ee4",
+"index.html": "6b065312c6ec193b0452aea7c7d583eb",
+"/": "6b065312c6ec193b0452aea7c7d583eb",
+"main.dart.js": "70deb0e4f2eebb8d25e49a4f85e2d458",
 "favicon.png": "2704101cb06ce66e2000356a312be25c",
 "logo.png": "9dd9ede2935300abe504d7b7a43beacf",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
@@ -29,11 +28,7 @@ const RESOURCES = {
 "assets/assets/lottie_animations/favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "assets/assets/videos/favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "assets/assets/pdfs/favicon.png": "5dcef449791fa27946b3d35ad8803796",
-"assets/assets/fonts/favicon.png": "5dcef449791fa27946b3d35ad8803796",
-"canvaskit/canvaskit.js": "97937cb4c2c2073c968525a3e08c86a3",
-"canvaskit/profiling/canvaskit.js": "c21852696bc1cc82e8894d851c01921a",
-"canvaskit/profiling/canvaskit.wasm": "371bc4e204443b0d5e774d64a046eb99",
-"canvaskit/canvaskit.wasm": "3de12d898ec208a5f31362cc00f09b9e"
+"assets/assets/fonts/favicon.png": "5dcef449791fa27946b3d35ad8803796"
 };
 
 // The application shell files that are downloaded before a service worker can
