@@ -4,9 +4,10 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "687f77d65eac2008a4791e9f98b21bf6",
-"index.html": "6b065312c6ec193b0452aea7c7d583eb",
-"/": "6b065312c6ec193b0452aea7c7d583eb",
-"main.dart.js": "70deb0e4f2eebb8d25e49a4f85e2d458",
+"index.html": "915d20842662d96c1aed2e63419bb7e3",
+"/": "915d20842662d96c1aed2e63419bb7e3",
+"main.dart.js": "e4b87211b3211d3c8b9b6a419aec142b",
+"flutter.js": "1cfe996e845b3a8a33f57607e8b09ee4",
 "favicon.png": "2704101cb06ce66e2000356a312be25c",
 "logo.png": "9dd9ede2935300abe504d7b7a43beacf",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
@@ -14,7 +15,7 @@ const RESOURCES = {
 "manifest.json": "b5aca6bf9090a3d08da3909b05c67920",
 "spindoctor-social-image.png": "e89bdaf15e41348418ed39024d4c272a",
 "assets/AssetManifest.json": "852c0a8b2cdf74821d5099f0798113af",
-"assets/NOTICES": "5a6e9566f4c0c58a346bb0936c2ba622",
+"assets/NOTICES": "30b1b63065e12952f705e5e5363f66bb",
 "assets/FontManifest.json": "5a32d4310a6f5d9a6b651e75ba0d7372",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "dd3c4233029270506ecc994d67785a37",
@@ -28,7 +29,11 @@ const RESOURCES = {
 "assets/assets/lottie_animations/favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "assets/assets/videos/favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "assets/assets/pdfs/favicon.png": "5dcef449791fa27946b3d35ad8803796",
-"assets/assets/fonts/favicon.png": "5dcef449791fa27946b3d35ad8803796"
+"assets/assets/fonts/favicon.png": "5dcef449791fa27946b3d35ad8803796",
+"canvaskit/canvaskit.js": "97937cb4c2c2073c968525a3e08c86a3",
+"canvaskit/profiling/canvaskit.js": "c21852696bc1cc82e8894d851c01921a",
+"canvaskit/profiling/canvaskit.wasm": "371bc4e204443b0d5e774d64a046eb99",
+"canvaskit/canvaskit.wasm": "3de12d898ec208a5f31362cc00f09b9e"
 };
 
 // The application shell files that are downloaded before a service worker can
