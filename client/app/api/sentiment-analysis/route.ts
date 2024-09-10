@@ -19,8 +19,8 @@ export async function POST(request: Request) {
       max_tokens: 21,
     });
 
-    let rawSentiment = responseSentiment.choices[0]?.message?.content?.trim() ?? '';
-    let sentiment = normalizeSentiment(rawSentiment);
+    const rawSentiment = responseSentiment.choices[0]?.message?.content?.trim() ?? '';
+    const sentiment = normalizeSentiment(rawSentiment);
 
     const responseReason = await openai.chat.completions.create({
       model: "gpt-3.5-turbo",
@@ -32,7 +32,7 @@ export async function POST(request: Request) {
       max_tokens: 150,
     });
 
-    let reason = responseReason.choices[0]?.message?.content?.trim() ?? '';
+    const reason = responseReason.choices[0]?.message?.content?.trim() ?? '';
 
     return NextResponse.json({
       sentiment: sentiment,

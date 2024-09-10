@@ -44,16 +44,13 @@ const useAppHeight = (inputRef: RefObject<HTMLInputElement>) => {
 
 const SpindoctorDesktop: FunctionComponent = () => {
   const [selectedSentiment, setSelectedSentiment] = useState('');
-  const [isInputFocused, setIsInputFocused] = useState(false);
   const [positiveReason, setPositiveReason] = useState('');
   const [neutralReason, setNeutralReason] = useState('');
   const [hasInputBeenFocused, setHasInputBeenFocused] = useState(false);
   const [negativeReason, setNegativeReason] = useState('');
   const [headlineInput, setHeadlineInput] = useState('');
-  const [userName, setUserName] = useState('spindoctor');
   const [isLoading, setIsLoading] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
-  const [sentimentContainerColor, setSentimentContainerColor] = useState('');
   const [bottomBackgroundColor, setBottomBackgroundColor] = useState('');
   const [isOverlayVisible, setIsOverlayVisible] = useState(false);
 
@@ -136,12 +133,7 @@ const SpindoctorDesktop: FunctionComponent = () => {
   };
 
   const handleInputFocus = () => {
-    setIsInputFocused(true);
     setHasInputBeenFocused(true);
-  };
-
-  const handleInputBlur = () => {
-    setIsInputFocused(false);
   };
 
   return (
@@ -182,7 +174,6 @@ const SpindoctorDesktop: FunctionComponent = () => {
                 value={headlineInput}
                 onChange={handleInputChange}
                 onFocus={handleInputFocus}
-                onBlur={handleInputBlur}
               />
               <button
                 className={styles.button}

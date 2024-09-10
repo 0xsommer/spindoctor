@@ -1,4 +1,3 @@
-import Image from "next/image";
 import SpindoctorDesktop from "./components/SpindoctorDesktop";
 
 export default function Home() {

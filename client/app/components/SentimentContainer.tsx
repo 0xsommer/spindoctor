@@ -28,32 +28,10 @@ type ContainerStyles = {
 };
 
 const SentimentContainer: FunctionComponent<SentimentContainerType> = ({
-  sentimentEmoji,
   sentiment,
   sentimentReason,
-  propBackgroundColor,
-  propBorder,
-  propColor,
-  sentimentTag,
   propOpacity,
 }) => {
-  const colorWrapperStyle: CSS.Properties = useMemo(() => {
-    return {
-      backgroundColor: propBackgroundColor,
-    };
-  }, [propBackgroundColor]);
-
-  const contentWrapperStyle: CSS.Properties = useMemo(() => {
-    return {
-      border: propBorder,
-    };
-  }, [propBorder]);
-
-  const negativeStyle: CSS.Properties = useMemo(() => {
-    return {
-      color: propColor,
-    };
-  }, [propColor]);
 
   const outerContainerStyle: CSS.Properties = useMemo(() => {
     return {

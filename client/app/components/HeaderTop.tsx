@@ -1,6 +1,4 @@
 import { FunctionComponent } from "react";
-import Bubble from "./Bubble";
-import Tag from "./Tag";
 import styles from "./HeaderTop.module.css";
 
 const HeaderTop: FunctionComponent = () => {
