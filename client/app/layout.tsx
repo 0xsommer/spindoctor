@@ -16,6 +16,14 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: "spindoctor – AI-powered sentiment analysis",
   description: "spindoctor.ai is an AI-powered sentiment analysis tool that helps you understand the emotional tone of your text. Whether you're analyzing news articles, social media posts, or customer feedback, spinDoctor can quickly and accurately determine the sentiment of your content.",
+  openGraph: {
+    title: 'spindoctor – AI-powered sentiment analysis',
+    description: 'spindoctor.ai is an AI-powered sentiment analysis tool that helps you understand the emotional tone of your text. Whether you\'re analyzing news articles, social media posts, or customer feedback, spinDoctor can quickly and accurately determine the sentiment of your content.',
+    url: 'https://spindoctor.ai',
+    siteName: 'spindoctor – AI-powered sentiment analysis',
+    locale: 'en_US',
+    type: 'website',
+  },
 };
 
 export default function RootLayout({
