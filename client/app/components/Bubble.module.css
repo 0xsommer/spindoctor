@@ -1,0 +1,16 @@
+.text {
+  position: relative;
+}
+.bubble {
+  border-radius: var(--br-8xs);
+  background-color: var(--color-black);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-9xs) var(--padding-5xs);
+  align-items: flex-start;
+  justify-content: space-between;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--basics-white);
+  font-family: var(--font-work-sans);
+}

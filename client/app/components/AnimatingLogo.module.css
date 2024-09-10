@@ -1,0 +1,34 @@
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 72px;
+    height: 32px;
+  }
+  
+  .dot {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    position: absolute;
+    transition: all 1s ease-in-out;
+  }
+  
+  .green {
+    background-color: var(--green);
+    left: 0;
+    z-index: 3;
+  }
+  
+  .yellow {
+    background-color: var(--yellow);
+    left: 20px;
+    z-index: 2;
+  }
+  
+  .red {
+    background-color: var(--red);
+    left: 40px;
+    z-index: 1;
+  }

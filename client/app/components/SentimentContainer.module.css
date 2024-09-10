@@ -1,0 +1,84 @@
+.colorwrapper {
+  align-self: stretch;
+  border-radius: var(--br-xl) var(--br-xl) 0 0;
+  background-color: var(--negative-red);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-base);
+  align-items: center;
+  justify-content: center;
+}
+
+.dieHeadlineDer {
+  flex: 1;
+  position: relative;
+}
+
+.contentwrapper {
+  border-radius: 0 0 var(--br-xl) var(--br-xl);
+  background-color: var(--basics-white);
+  border: 1px solid var(--negative-red);
+  box-sizing: border-box;
+  height: 200px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-base);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.card,
+.contentwrapper,
+.negative {
+  align-self: stretch;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.sentimentContainer {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  text-align: center;
+  padding: 24px;
+  padding-top: 120px;
+  font-size: var(--font-size-base);
+  color: var(--dark-grey);
+  font-family: var(--font-work-sans);
+  width: 100%;
+}
+
+.sentimentString {
+  font-weight: 600;
+  text-align: center;
+  font-size: var(--font-size-xs);
+  font-family: var(--font-work-sans);
+}
+
+.resultInnerWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  max-width: 544px;
+}
+
+@media screen and (max-width: 1000px) {
+
+  .sentimentContainer {
+    border-radius: 16px;
+    width: unset;
+    padding-top: 24px;
+  }
+
+}

@@ -1,0 +1,129 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+:root {
+
+  --app-height: 100vh;
+
+
+  /* fonts */
+  --font-work-sans: "Work Sans";
+
+  /* font sizes */
+  --font-size-base: 16px;
+  --font-size-xl: 20px;
+
+  /* Colors */
+  --dark-grey: #27272a;
+  --positive-color: #87d8d1;
+  --basics-white: #fff;
+  --neutral-color: #f8cd5c;
+  --negative-color: #ed5c8e;
+  --not-detected-color: #efefef;
+  --loading-color: #5c5c5c;
+
+  /* Paddings */
+  --padding-base: 16px;
+  --padding-xs: 12px;
+  --padding-9xs: 4px;
+
+  /* border radiuses */
+  --br-xl: 20px;
+  --br-9xs: 4px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--dark-grey);
+  cursor: pointer;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700;900&display=swap");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-work-sans: "Work Sans";
+
+  /* font sizes */
+  --font-size-base: 16px;
+  --font-size-xs: 12px;
+  --font-size-11xl: 30px;
+  --font-size-sm: 14px;
+
+  /* Colors */
+  --basics-white: #fff;
+  --green: #87d8d1;
+  --green-light: rgba(135, 216, 209, 0.2);
+  --color-black: #000;
+  --red: #ed5c8e;
+  --red-light: rgba(237, 92, 142, 0.2);
+  --yellow: #f8cd5c;
+  --yellow-light: rgba(248, 205, 92, 0.2);
+  --color-gray-300: rgba(255, 255, 255, 0.2);
+
+  /* Gaps */
+  --gap-base: 16px;
+  --gap-xs: 12px;
+  --gap-5xl: 24px;
+  --gap-5xs: 8px;
+  --gap-9xs: 4px;
+  --gap-7xs: 6px;
+  --gap-13xl: 32px;
+
+  /* Paddings */
+  --padding-5xl: 24px;
+  --padding-9xs: 4px;
+  --padding-xs: 12px;
+  --padding-13xl: 32px;
+  --padding-base: 16px;
+  --padding-5xs: 8px;
+
+  /* border radiuses */
+  --br-8xs: 5px;
+  --br-3xs: 10px;
+}
+
+@media screen and (max-width: 1600px) {
+
+  :root {
+    --font-size-11xl: 24px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+
+  :root {
+    --font-size-base: 16px;
+    --font-size-xl: 18px;
+  }
+}

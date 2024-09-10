@@ -1,0 +1,48 @@
+.imagewrapperChild {
+  position: relative;
+  width: 23px;
+  height: 23px;
+  flex-shrink: 0;
+}
+.imagewrapper {
+  border-radius: var(--br-9xs);
+  background-color: var(--dark-grey);
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-9xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.spindoctor {
+  position: relative;
+  font-weight: 600;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.about {
+  position: relative;
+  cursor: pointer;
+  font-size: var(--font-size-base);
+  border-bottom: 1px solid var(--dark-grey);
+}
+
+.header {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--dark-grey);
+  font-family: var(--font-work-sans);
+}

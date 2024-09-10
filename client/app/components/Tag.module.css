@@ -1,0 +1,16 @@
+.tagtext {
+  position: relative;
+}
+.tag {
+  border-radius: var(--br-8xs);
+  background-color: var(--green-light);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-9xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: center;
+  font-size: var(--font-size-xs);
+  color: var(--green);
+  font-family: var(--font-work-sans);
+}

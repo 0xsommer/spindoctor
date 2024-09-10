@@ -1,0 +1,14 @@
+.blog {
+  position: relative;
+}
+.footer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--dark-grey);
+  font-family: var(--font-work-sans);
+}
